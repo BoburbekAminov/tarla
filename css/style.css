@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Roboto";
+  color: #000;
+  background: #f5ede7;
+}
+
+.wrapHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 25px;
+}
+
+/* .logoAndMenu {
+} */
+.wrapMenu {
+  padding-left: 16px;
+  display: inline-flex;
+  gap: 16px;
+}
+
+.menu {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+.authorization {
+  display: flex;
+  gap: 6px;
+}
+.header p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "DM Sans";
+  line-height: 140%;
+}
+hr {
+  border: 1px solid #000;
+}
+section.banner {
+  background: #ffc3a0;
+  display: flex;
+  padding: 24px 15px;
+  gap: 48px;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+}
+.titleWrap {
+  flex-basis: 444px;
+  flex-grow: 3;
+}
+
+.banner h1 {
+  font-size: 76px;
+  font-weight: 400;
+  line-height: 90px;
+  margin: 83px 0 33px 0;
+}
+.banner span {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "DM Sans";
+  line-height: 155%;
+}
+.pastryBtn {
+  width: 310px;
+  text-align: center;
+  padding: 12px 0;
+  border-radius: 35px;
+  border: 1px solid #000;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 155%;
+  margin-top: 21px;
+}
+
+.biscuitImg img {
+  width: 100%;
+}
+.biscuitImg {
+  position: relative;
+}
+.iconsBtn {
+  display: flex;
+  position: absolute;
+  gap: 5px;
+  right: 17px;
+  bottom: 25px;
+}
+
+section.preparation {
+  padding: 64px 16px;
+}
+.cakeInfo {
+  text-align: center;
+}
+.cakeInfo h3 {
+  font-size: 43px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 63px;
+}
+.wrapInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.textInfo {
+  width: 334px;
+}
+.textInfo p {
+  text-align: center;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 133%;
+  text-transform: uppercase;
+}
+.textInfo span {
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 155%;
+}
+
+.center {
+  margin: 0 auto;
+  border: 1px solid #0126de;
+  color: #0126de;
+  margin-top: 42px;
+}
+
+section.info {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 48px;
+  padding: 48px 16px;
+}
+.cakeImg img {
+  width: 100%;
+}
+
+.titleInfo {
+  flex-basis: 649px;
+  flex-grow: 2;
+}
+.info p {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 140%;
+}
+.startBtn {
+  border: 1px solid #0126de;
+  color: #0126de;
+  margin-top: 33px;
+}
+section.cakeGrid {
+  padding: 0 16px;
+}
+.cakeGrid h3 {
+  text-align: center;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 144px;
+}
+.wrapGrid {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 24px;
+}
+@media (max-width: 950px) {
+  .wrapGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .wrapGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.grid p {
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 133%;
+  text-transform: uppercase;
+}
+.grid span {
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+.cartBtn {
+  border-radius: 35px;
+  border: 1px solid #0126de;
+  width: 257px;
+  padding: 12px 0;
+
+  color: #0126de;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 155%;
+  margin-top: 9px;
+}
+section.tarlaImg {
+  padding-top: 65px;
+}
+.tarlaImg img {
+  width: 100%;
+}
+
+section.wrapPlan {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px;
+  gap: 15px;
+}
+.plan {
+  max-width: 458px;
+  border-radius: 20px;
+  border: 1px solid #000;
+}
+.planInfo {
+  text-align: center;
+  padding: 25px 25px 22px 25px;
+}
+.wrapPlan h2 {
+  padding: 13px 0 20px 0;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 123%;
+}
+.wrapPlan span {
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 155%;
+}
+
+section.wrapComment {
+  display: contents;
+  margin: 0 auto;
+  width: 1080px;
+  position: relative;
+}
+.imgTop {
+  position: absolute;
+  right: -114px;
+}
+
+.imgBottom {
+  position: absolute;
+  left: 228px;
+}
+.comment {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+@media (max-width: 1075px) {
+  .comment {
+    flex-direction: column;
+  }
+}
+.commentTwo {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+@media (max-width: 1075px) {
+  .commentTwo {
+    flex-direction: column-reverse;
+  }
+}
+.commentText {
+  flex-basis: 344px;
+  flex-grow: 3;
+}
+.commentText span {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.commentText p {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 153%;
+  margin-top: 26px;
+}
+.readingBtn {
+  margin-top: 22px;
+  border-radius: 35px;
+  border: 1px solid #000;
+  color: #000;
+  width: 256px;
+}
+section.swiperWrap {
+  padding: 65px 0;
+}
+.swiperWrap h3 {
+  text-align: center;
+  font-size: 43px;
+  font-weight: 400;
+  line-height: 140%;
+}
+.swipers {
+  display: flex;
+  gap: 24px;
+}
+
+section.community {
+  margin: 0 auto;
+  text-align: center;
+  padding: 16px 0;
+}
+.community h2 {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 144%;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.community p {
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 142%;
+  padding-bottom: 24px;
+}
+.joinBtn {
+  width: 480px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: rgba(255, 255, 255, 0.25);
+  margin: 0 auto;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 423%;
+  text-transform: uppercase;
+}
+
+section.footer {
+  padding: 16px;
+}
+.footer p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 160%;
+  padding-bottom: 24px;
+}
+.footer span {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.footerInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.account {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.resources {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.wrapIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.wrapIcons p {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 156%;
+}
+.year {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 171%;
+}
