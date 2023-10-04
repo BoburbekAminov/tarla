@@ -374,6 +374,8 @@ section.footer {
 .footerInfo {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  
 }
 .account {
   display: flex;
